@@ -14,7 +14,7 @@ return <div className={`flex items-center justify-between px-8 py-6 ${darkMode? 
 
 
     <div className="ml-auto flex gap-2 sm:gap-4 md:gap-4 lg:gap-8 items-center">
-       <div className="border rounded-full p-2 text-white "> <button className= "text-md sm:text-lg md:text-2xl p-2 font-bold cursor-pointer" onClick={() => setDarkMode(darkMode => !darkMode)}> tap me</button></div>
+       <div className="border rounded-full p-2 text-white "> <button className= "text-md sm:text-lg md:text-2xl p-2 font-bold cursor-pointer" onClick={() => setDarkMode(darkMode => !darkMode)}>Theme</button></div>
         <div className="flex text-2xl justify-center items-center"><User size={24} className="font-bold hover:cursor-pointer"></User> Mani</div>
     </div>
 </div>
