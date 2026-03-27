@@ -3,6 +3,8 @@ import App from "./App.jsx";
 import Card from "./Pages/Card.jsx";
 import Home from "./Pages/Home.jsx";
 import Page from "./Pages/Page.jsx";
+import Login from "./Pages/Login/Login";
+
 
 const router = createBrowserRouter([
     {
