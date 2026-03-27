@@ -17,7 +17,7 @@ const Point_upper = () => {
         <Link className='flex text-lg items-center font-mono p-2 rounded-lg hover:bg-gray-100 cursor-pointer'> <Users size={20} className='mr-3' />Customers</Link>
         <hr className="border-t border-gray-200 my-1" />
         <Link className='flex text-lg items-center font-mono p-2 rounded-lg hover:bg-gray-100 cursor-pointer'><Settings size={20} className='mr-3' />Settings</Link>
-        <Link className='flex text-lg items-center font-mono p-2 rounded-lg hover:bg-gray-100 cursor-pointer'><LogOut size={20} className='mr-3' />Logout</Link>
+        <Link to ="/login" className='flex text-lg items-center font-mono p-2 rounded-lg hover:bg-gray-100 cursor-pointer'><LogOut size={20} className='mr-3' />Logout</Link>
     </div>
 
 
