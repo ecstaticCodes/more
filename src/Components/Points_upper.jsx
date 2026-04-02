@@ -44,7 +44,7 @@ const Point_upper = () => {
 
             <hr className="border-t border-gray-200 my-1" />
 
-            <Link onClick={() => dispatch({ type: 'SET_ACTIVE', payload: 'Settings' })} className={linkClass('Settings')}>
+            <Link to={"/API/Settings.jsx"} onClick={() => dispatch({ type: 'SET_ACTIVE', payload: 'Settings' })} className={linkClass('Settings')}>
                 <Settings size={20} className='mr-3' /> Settings
             </Link>
 
